@@ -1,3 +1,3 @@
 # inkitt-task
 
-See gh-pages: 
+Link: [https://alidzm.github.io/inkitt-task/](https://alidzm.github.io/inkitt-task/)
