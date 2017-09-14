@@ -1,8 +1,0 @@
-.idea
-node_modules
-*.log
-src
-.babelrc
-dev-server.js
-*.json
-webpack.config.js
