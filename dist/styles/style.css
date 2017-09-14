@@ -1,0 +1,44 @@
+body {
+  max-width: 940px;
+  margin: 60px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+}
+
+.text {
+  padding-top: 10px;
+}
+
+.tooltip {
+  width: 50px;
+  height: 44px;
+  position: absolute;
+  background-color: black;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.tooltip::before {
+  position: relative;
+  top: 7px;
+  font-family: FontAwesome;
+  font-size: 24px;
+  content: "\f099";
+  color: white;
+}
+
+.tooltip::after {
+  position: relative;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 25px;
+  left: 1px;
+  border-top:8px solid black;
+  border-right: 8px solid transparent;
+  border-left:8px solid transparent;
+}

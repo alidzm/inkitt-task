@@ -1,5 +1,8 @@
 .idea
 node_modules
-*.bundle.js
 *.log
-dist
+src
+.babelrc
+dev-server.js
+*.json
+webpack.config.js
